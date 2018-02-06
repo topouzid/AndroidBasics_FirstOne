@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">BirthdayCard</string>
+    <string name="copyright_message">Photo by Pixabay, app by Topouzid</string>
+    <string name="pack_your_stuff">Pack your stuff!!!</string>
+    <string name="summer_text">Summer is coming</string>
 </resources>

@@ -12,15 +12,15 @@
         android:src="@drawable/luggage" />
 
     <TextView
-        android:layout_width="299dp"
-        android:layout_height="299dp"
+        android:layout_width="@dimen/vertical_text_square"
+        android:layout_height="@dimen/vertical_text_square"
         android:layout_alignParentBottom="true"
         android:layout_alignParentRight="true"
         android:fontFamily="sans-serif"
         android:gravity="bottom|right"
-        android:padding="5dp"
+        android:padding="@dimen/small_text_padding"
         android:rotation="-90"
-        android:text="Photo by Pixabay, app by Topouzid"
+        android:text="@string/copyright_message"
         android:textColor="@android:color/white"
         android:textSize="12sp" />
 
@@ -28,9 +28,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentRight="true"
-        android:layout_marginRight="10dp"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
         android:fontFamily="sans-serif-light"
-        android:text="Summer is coming"
+        android:text="@string/summer_text"
         android:textColor="#FFFFFF"
         android:textSize="40sp" />
 
@@ -39,8 +39,8 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_marginBottom="@dimen/activity_vertical_margin"
-        android:layout_marginLeft="10dp"
-        android:text="Pack your stuff!!!"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:text="@string/pack_your_stuff"
         android:textColor="#935116"
         android:textSize="40sp" />
 

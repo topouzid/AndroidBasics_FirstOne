@@ -20,4 +20,6 @@ limitations under the License.
     <dimen name="indeterminate_progress_size">32dp</dimen>
     <dimen name="activity_horizontal_margin">10dp</dimen>
     <dimen name="activity_vertical_margin">8dp</dimen>
+    <dimen name="vertical_text_square">299dp</dimen>
+    <dimen name="small_text_padding">5dp</dimen>
 </resources>
